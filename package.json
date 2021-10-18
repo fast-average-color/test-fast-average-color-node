@@ -8,6 +8,7 @@
     "fast-average-color-node": "^2.0.0"
   },
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
