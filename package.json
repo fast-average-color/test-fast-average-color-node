@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "fast-average-color-node": "^2.0.0"
+    "@types/node": "^18.11.18",
+    "fast-average-color-node": "^2.4.0"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
