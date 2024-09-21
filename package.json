@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "@types/node": "^18.11.18",
-    "fast-average-color-node": "^2.4.0"
+    "@types/node": "^22.5.5",
+    "fast-average-color-node": "^3.1.0",
+    "typescript": "^5.6.2"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && node ./index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "private": true
 }
